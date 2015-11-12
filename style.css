@@ -1,0 +1,128 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #686868;
+	height: 100%;
+}
+
+h1 {
+	color: #000066;
+	letter-spacing: 2px;
+}
+
+h2 {
+	color: #0099FF;
+}
+
+p { 
+	text-indent: 15px;
+}
+
+table, th, td {
+    border: 5px solid #000066;
+}
+
+#b1 {
+ 	background-color: #FF0000;
+}
+
+thead {
+	color: blue;
+	text-transform: uppercase;
+	background-color: #B22222;
+}
+
+tbody {
+	color: green;
+}
+
+#col1 {
+	background-color: red;
+}
+
+#col2 {
+	background-color: yellow;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: lower-greek;
+}
+
+#img1 {
+	float: left;
+}
+
+#img2 {
+	float: right;
+}
+
+#d0 {
+	background-color: #FFFFCC;
+	color:  #707070 ;
+	text-align: center;
+	width: 100%;
+}    
+
+#d1 {
+	max-width: 960px;
+	background-color: #E0E0E0;
+	margin-left: 200px;
+	float: left;
+	height: 100%;
+} 
+
+#d2 {
+    background-color:#eeeeee;
+    width:200px;
+    float:left;
+	text-align: center;
+	position: fixed;
+	height: 100%;
+}
+
+a {
+	cursor: default;
+}
+
+
+#d2 ul {
+
+	padding-left: 0;
+	list-style-type: none;
+}
+
+#d2 li {
+	margin-right: 5px; 
+}
+
+#d2 a {
+	display: block;
+	padding: 3px 5px 3px 8px;
+	background-color: #2e7888; 
+}
+
+#d2 a:link, #d2 a:visited {
+	color: #FFF;
+	text-decoration: none;
+	position: relative; 
+}
+
+#d2 a:hover {
+	background-color: #aad3dc;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold; 
+}
+
+p:first-letter {
+    font-size: 200%;
+    color: #580000 ;
+} 
+

@@ -1,0 +1,28 @@
+.spis{
+	display:none;
+}
+#tresc{
+	margin: 0px auto;
+}
+body {
+	text-decoration: none;
+	border-color:black;
+}
+h1, h2, h3, a, p, p:first-letter{
+	color:black;
+	margin: 10px 10px;
+}
+.title{
+	margin: 10px 10px;
+}
+table{
+	border:none;
+}
+
+@media print
+{    
+	.no-print
+	{
+		display: none !important;
+    }
+}
